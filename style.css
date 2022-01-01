@@ -48,7 +48,18 @@ header {
 .main-nav li:last-child a:hover{
     background-color: #a24fef;
     color: #fff;
-
+}
+.first{
+    background-color: lawngreen;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.second{
+    background-color: crimson;
+    height: 200px;
+    margin: 20px;
+    border-radius: 20px;
 }
 @media (min-width:768px) {
     .hamburger-menu{
@@ -56,5 +67,25 @@ header {
     }
     .main-nav{
         display: flex;
+    }
+    main{
+        display: flex;
+    }
+    .first{
+        width: 75%;
+    }
+    .second{
+        width: 25%;
+        height: 400px;
+        margin-left: 0;
+    }
+}
+@media (min-width:1200px) {
+
+    .first{
+        background-color: green;
+    }
+    .second{
+       background-color: hotpink;
     }
 }
